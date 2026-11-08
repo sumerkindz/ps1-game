@@ -14,6 +14,7 @@ int main(void) {
     DRAWENV draw_env;
 
     ResetGraph(0);
+    FntLoad(960, 0);
     SetDefDrawEnv(&draw_env, 0, 0, SCREEN_W, SCREEN_H);
     SetDefDispEnv(&display_env, 0, 0, SCREEN_W, SCREEN_H);
 
