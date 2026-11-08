@@ -14,7 +14,7 @@
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
-        "PSN00BSDK_TC": "$env{PSN00BSDK_TC}",
+        "PSN00BSDK_TC": "",
         "PSN00BSDK_TARGET": "mipsel-none-elf"
       }
     }
