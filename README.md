@@ -19,9 +19,9 @@ When the build succeeds, the disc image files should be:
 
 Download both files to your Android device and open the `.cue` file in DuckStation.
 
-## Current demo
+## Game
 
-A dark-blue screen, a moving yellow square, and debug text. This is the first technical milestone: compiling a PlayStation executable and packaging a disc image. The next steps are controller input, a player character, collisions, and levels.
+**Block Drop** is a falling-block puzzle game. Use the D-pad left and right to move pieces, Cross or Circle to rotate, Down to drop slowly, and Up to drop quickly. Complete rows to clear them and earn points. Press Start after a game over to play again.
 
 ## Technology
 
