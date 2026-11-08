@@ -45,9 +45,11 @@ int main(void) {
         setRGB0(square, 255, 210, 40);
         addPrim(&ordering_table[1], square);
 
-        FntSort(&ordering_table[0], packet_buffer + sizeof(TILE),
-                8, 16, "MY FIRST PLAYSTATION GAME");
-        FntSort(&ordering_table[0], packet_buffer + sizeof(TILE) + 1024,
+        uint8_t *next_packet = (uint8_t *)FntSort(
+            &ordering_table[0], packet_buffer + sizeof(TILE),
+            8, 16, "MY FIRST PLAYSTATION GAME"
+        );
+        FntSort(&ordering_table[0], next_packet,
                 8, 32, "A yellow square is moving!");
 
         DrawSync(0);
