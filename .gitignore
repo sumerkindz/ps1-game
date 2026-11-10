@@ -1,5 +1,7 @@
 /build/
 /.cache/
+/references/
+/reports/
 *.bin
 *.cue
 *.iso
